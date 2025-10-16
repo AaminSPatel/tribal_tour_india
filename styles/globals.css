@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -37,11 +37,6 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-  --brand-terracotta: #d96c32;
-  --brand-mustard: #c7a356;
-  --brand-brown: #3a2313;
-  --brand-green: #2e4a32;
-  --brand-cream: #f6f0e7;
 }
 
 .dark {
@@ -77,46 +72,10 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(0.269 0 0);
   --sidebar-ring: oklch(0.439 0 0);
-  --brand-terracotta: #d96c32;
-  --brand-mustard: #c7a356;
-  --brand-brown: #3a2313;
-  --brand-green: #2e4a32;
-  --brand-cream: #f6f0e7;
-}
-
-:root {
-  --background: var(--brand-cream);
-  --foreground: var(--brand-brown);
-  --card: var(--brand-cream);
-  --card-foreground: var(--brand-brown);
-  --primary: var(--brand-terracotta);
-  --primary-foreground: var(--brand-cream);
-  --secondary: var(--brand-green);
-  --secondary-foreground: var(--brand-cream);
-  --accent: var(--brand-mustard);
-  --accent-foreground: var(--brand-brown);
-  --border: color-mix(in oklab, var(--brand-brown), white 80%);
-  --ring: color-mix(in oklab, var(--brand-terracotta), white 40%);
-}
-
-.dark {
-  --background: var(--brand-brown);
-  --foreground: var(--brand-cream);
-  --card: var(--brand-brown);
-  --card-foreground: var(--brand-cream);
-  --primary: var(--brand-terracotta);
-  --primary-foreground: var(--brand-cream);
-  --secondary: var(--brand-mustard);
-  --secondary-foreground: var(--brand-brown);
-  --accent: var(--brand-green);
-  --accent-foreground: var(--brand-cream);
-  --border: color-mix(in oklab, var(--brand-cream), black 85%);
-  --ring: color-mix(in oklab, var(--brand-terracotta), black 40%);
 }
 
 @theme inline {
-  --font-sans: var(--font-poppins);
-  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
